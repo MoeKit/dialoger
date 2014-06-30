@@ -1,0 +1,33 @@
+{
+    "name": "dialoger",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/lizheng/dialoger",
+    "author": "",
+    "maintainers": [
+        ""
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lizheng/dialoger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lizheng/dialoger/issues"
+    },
+    "licenses": "MIT",
+    "spm": {
+        "main": "index.js",
+        "dependencies": {
+            "arale-dialog": "1.4.0"
+        },
+        "devDependencies": {
+            "expect.js": "0.3.1"
+        },
+        "engines": {
+            "seajs": "2.2.1"
+        },
+        "tests": "tests/*.js",
+        "buildArgs": "--include all --ignore jquery"
+    }
+}
