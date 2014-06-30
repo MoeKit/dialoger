@@ -28,6 +28,6 @@
             "seajs": "2.2.1"
         },
         "tests": "tests/*.js",
-        "buildArgs": "--include all --ignore jquery"
+        "buildArgs": "--ignore jquery"
     }
 }
